@@ -2,35 +2,35 @@
 
 namespace App\Classes;
 
-use League\CLImate\CLImate;
 use App\Exceptions\ClientInterfaceException;
+use App\Helpers\Utils;
+use League\CLImate\CLImate;
 
 class SslBot
 {
-    private $cliMate;
-    public $params = [
+    private CLImate $cliMate;
+    public array $params = [
         'w',
         'c',
         'p',
         'd'
     ];
-    public $helParams = [
+    public array $helParams = [
         'help',
         'version'
     ];
-    public $ws;
-    public $code;
+    public string $code;
 
-    public $help;
-    public $version = '1.0';
+    private Utils $utils;
 
     public function __construct()
     {
         $this->cliMate = new CLImate();
+        $this->utils = Utils::getInstance();
     }
 
 
-    public function getParamsInfos()
+    public function getParamsInfos(): array
     {
         $helpInfo = [];
         $helpInfo['w'] = "Your server name. Ex: nginx.";
@@ -40,7 +40,7 @@ class SslBot
         return $helpInfo;
     }
 
-    private function getFormatedParams()
+    private function getFormatedParams(): array
     {
         $paramsList = [];
         foreach ($this->params as $param) {
@@ -58,28 +58,23 @@ class SslBot
         return getopt(null, $this->getFormatedParams());
     }
 
-    private function createParams()
+    private function createParams(): void
     {
         foreach ($this->getParamsValue() as $index => $param) {
             $this->{$index} = $param;
         }
     }
 
-    private function getOnlyParam($param)
+    private function getOnlyParam(string $param)
     {
         $opts = getopt(null, $this->getFormatedParams());
-        if (isset($opts[$param])) {
-            return $opts[$param];
-        }
-        return null;
+        return $opts[$param] ?? null;
     }
 
-##sudo sslws_bot --w=apache2 --c=59b043fb1684046387a862bb408e426de204bcebb2bbe406f03f6a19f9659163 --p=/var/www/html
-
-    private function validateParams()
+    private function validateParams(): void
     {
         $params = $this->getParamsValue();
-        if (isset($params['help']) || count($params) == 0) {
+        if (isset($params['help']) || count($params) === 0) {
             foreach ($this->getParamsInfos() as $index => $paramInfo) {
                 $this->cliMate->info("--$index : $paramInfo");
             }
@@ -92,7 +87,7 @@ class SslBot
             exit;
         }
         if (isset($params['c']) && !isset($params['w']) && $this->checkIfConfigured($params['c'])) {
-            return null;
+            return;
         }
         $requiredParams = ['c', 'w', 'p'];
         foreach ($requiredParams as $p) {
@@ -109,28 +104,28 @@ class SslBot
             $msg = 'The directory "' . $params['p'] . '" does not exist.';
             throw ClientInterfaceException::cliException($msg);
         }
-        if (!isEnabledFunction('exec')) {
+        if (!$this->utils->isEnabledFunction('exec')) {
             $msg = "The exec function must be active.";
             throw ClientInterfaceException::cliException($msg);
         }
-        createDefaultConfigs();
+        $this->utils->createDefaultConfigs();
 
     }
 
     public function run()
     {
         try {
-            sucessMessage("SSL.WS - V1.1");
-            createDirOrFail(INSTALL_DIR);
+            $this->utils->successMessage("SSL.WS - V1.1");
+            $this->utils->createDirOrFail(INSTALL_DIR);
             $this->createParams();
             $this->validateParams();
             $this->code = $this->getOnlyParam('c');
             $sslApi = new SslApi();
             $orderData = $sslApi->getOrderInfo($this->code, 0);
             $sslOrder = new SslOrder($orderData, $this->getParamsValue());
-            $sslOrder->proccess();
+            $sslOrder->process();
         } catch (\Exception $ex) {
-            errorAndExit($ex->getMessage());
+            $this->utils->errorAndExit($ex->getMessage());
         }
     }
 
