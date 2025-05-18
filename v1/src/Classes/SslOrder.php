@@ -114,11 +114,13 @@ class SslOrder
     /**
      * @throws ClientInterfaceException
      */
-    public function getCsr()
+    public function getCsr(): bool|string
     {
+        $this->utils->successMessage("Generating CSR...");
         if ($this->canGenerateNewCsr()) {
             $this->generateNewCsr();
         }
+        $this->utils->successMessage("Generating CSR:" . $this->getCsrDir());
         return file_get_contents($this->getCsrDir());
 
     }
@@ -129,7 +131,10 @@ class SslOrder
     public function process(): void
     {
         $this->getCommonNameOrFail();
+
         $csr = $this->getCsr();
+
+
         $this->api->getOrderInfo($this->getDownloadCode(), 1);
 
         $data = $this->api->issueOrReissue($this->getDownloadCode(), $csr);
@@ -306,7 +311,6 @@ class SslOrder
 
     public function completeProcess($commonName): void
     {
-        $webserverConfig = $this->getWebServerData();
         $sslDir = $this->getDir();
         $this->utils->successMessage("Your certificate was successfully issued.");
         $this->utils->successMessage("It was saved in $sslDir");

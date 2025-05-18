@@ -169,7 +169,6 @@ class Utils
     public function getWebServerConfig($webserver): array
     {
         $file = INSTALL_DIR . '/' . $webserver . '.json';
-
         return $this->jsonToArray(file_get_contents($file));
     }
 
@@ -186,6 +185,12 @@ class Utils
                 $this->writeOrFail($file, $json);
             }
         }
+    }
+
+    public function dd($str): void
+    {
+        var_dump($str);
+        exit();
     }
 
     public function getFilesDir(): string
