@@ -7,7 +7,7 @@ use League\CLImate\CLImate;
 
 class Utils
 {
-    private static ?Utils $instance=null;
+    private static ?Utils $instance = null;
 
     private function __construct()
     {
@@ -155,7 +155,13 @@ class Utils
         if (is_null($json)) {
             return [];
         }
-        return json_decode($json, true, 512, JSON_THROW_ON_ERROR);
+        try {
+            return json_decode($json, true, 512, JSON_THROW_ON_ERROR);
+
+        } catch (\Exception $e) {
+            var_dump($json);
+            exit();
+        }
     }
 
     /**
@@ -228,6 +234,7 @@ class Utils
     SSLCertificateChainFile    $sslDir/crt/ca-bundle.crt
 </VirtualHost> \n";
     }
+
     public function getNginxExample($baseDir): string
     {
         $sslDir = $baseDir;
