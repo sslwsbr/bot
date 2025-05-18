@@ -112,7 +112,7 @@ class SslBot
     public function run(): void
     {
         try {
-            $this->utils->successMessage("SSL.WS - V1.1.5");
+            $this->utils->successMessage("SSL.WS - V1.1.6");
             $this->utils->createDirOrFail(INSTALL_DIR);
             $this->createParams();
             $this->validateParams();
