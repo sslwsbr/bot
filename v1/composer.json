@@ -6,8 +6,7 @@
     },
     "autoload": {
         "files": [
-            "src/constants/app.php",
-            "src/Helpers/Helpers.php"
+            "src/constants/app.php"
         ],
         "psr-4": {
             "App\\": "src/"

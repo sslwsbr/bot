@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d772c99b-e5bb-46ea-b92d-52f4a05a2646" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/v1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/SslApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/Classes/SslApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/SslBot.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/Classes/SslBot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/SslOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/Classes/SslOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ClientInterfaceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/Exceptions/ClientInterfaceException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/SystemException.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/Exceptions/SystemException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/Helpers/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/src/constants/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/404.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/404.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/bender.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/bender.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/failed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/failed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/fancy-bender.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/fancy-bender.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/passed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/passed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/the-league-big.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/the-league-big.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/the-league-bigger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/the-league-bigger.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/the-league-massive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/the-league-massive.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/ASCII/the-league.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/ASCII/the-league.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Argument/Argument.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Argument/Argument.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Argument/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Argument/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Argument/Manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Argument/Manager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Argument/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Argument/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Argument/Summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Argument/Summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/CLImate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/CLImate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Component/BackgroundColor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Component/BackgroundColor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Component/BaseDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Component/BaseDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Component/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Component/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Component/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Component/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Component/DecoratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Component/DecoratorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Component/Format.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Component/Format.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Parser/Ansi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Parser/Ansi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Parser/NonAnsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Parser/NonAnsi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Parser/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Parser/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Parser/ParserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Parser/ParserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Parser/ParserImporter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Parser/ParserImporter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Style.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Decorator/Tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Decorator/Tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Exceptions/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Exceptions/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Exceptions/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Exceptions/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Exceptions/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Exceptions/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Exceptions/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Exceptions/UnexpectedValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Settings/Art.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Settings/Art.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Settings/Manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Settings/Manager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Settings/SettingsImporter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Settings/SettingsImporter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Settings/SettingsInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Settings/SettingsInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/BasicTerminalObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/BasicTerminalObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/BasicTerminalObjectInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/BasicTerminalObjectInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Border.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Border.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Br.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Br.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Clear.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Clear.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/ClearLine.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/ClearLine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Draw.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Draw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Dump.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Dump.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Flank.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Flank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Json.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Out.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Out.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Repeatable.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Repeatable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Tab.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Tab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Basic/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Basic/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Animation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Animation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Animation/Keyframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Animation/Keyframe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Checkbox/Checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Checkbox/Checkbox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Checkbox/CheckboxGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Checkbox/CheckboxGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Checkbox/RadioGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Checkbox/RadioGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Checkboxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Checkboxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Confirm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/DynamicTerminalObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/DynamicTerminalObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/DynamicTerminalObjectInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/DynamicTerminalObjectInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/InputAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/InputAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Padding.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Padding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Password.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Progress.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Progress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Radio.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Radio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Spinner.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Dynamic/Spinner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Helper/Art.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Helper/Art.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Helper/Sleeper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Helper/Sleeper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Helper/SleeperInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Helper/SleeperInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Helper/StringLength.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Helper/StringLength.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Router/BaseRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Router/BaseRouter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Router/BasicRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Router/BasicRouter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Router/DynamicRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Router/DynamicRouter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Router/ExtensionCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Router/ExtensionCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Router/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Router/RouterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/TerminalObject/Router/RouterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Cursor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Cursor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Output.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Output.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/OutputImporter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/OutputImporter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Reader/ReaderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Reader/ReaderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Reader/Stdin.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Reader/Stdin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/System/Linux.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/System/Linux.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/System/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/System/System.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/System/SystemFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/System/SystemFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/System/Windows.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/System/Windows.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/UtilFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/UtilFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/UtilImporter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/UtilImporter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Writer/Buffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Writer/Buffer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Writer/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Writer/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Writer/StdErr.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Writer/StdErr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Writer/StdOut.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Writer/StdOut.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/Util/Writer/WriterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/league/climate/src/Util/Writer/WriterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/ArrayUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/ArrayUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/BaseCurl.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/BaseCurl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/CaseInsensitiveArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/CaseInsensitiveArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/Curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/Curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/Decoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/Decoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/Encoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/Encoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/MultiCurl.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/MultiCurl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/StringUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/StringUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class/src/Curl/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/php-curl-class/php-curl-class/src/Curl/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/AbstractLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/AbstractLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/LogLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/LogLevel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/LoggerAwareInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/LoggerAwareInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/LoggerAwareTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/LoggerAwareTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/LoggerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/LoggerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/LoggerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/LoggerTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/src/NullLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/psr/log/src/NullLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/.github/workflows/lint.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/.github/workflows/phpstan.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/.github/workflows/phpstan.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/phpstan.neon.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/phpstan.neon.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/res/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/res/example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/res/hiddeninput.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/res/hiddeninput.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/seld/cli-prompt/src/CliPrompt.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../v1/vendor/seld/cli-prompt/src/CliPrompt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compile.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../compile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sslws_bot.phar" beforeDir="false" afterPath="$PROJECT_DIR$/../../sslws_bot.1.0.phar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/league/climate" />
+      <path value="$PROJECT_DIR$/vendor/seld/cli-prompt" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2xH12P3KJIiDazhy8SnwkdvTrKL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/caique/sites/ssslws_bot/app/v1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PS-251.25410.148" />
+        <option value="bundled-php-predefined-a98d8de5180a-c5828cf854d9-com.jetbrains.php.sharedIndexes-PS-251.25410.148" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d772c99b-e5bb-46ea-b92d-52f4a05a2646" name="Changes" comment="" />
+      <created>1747579976472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747579976472</updated>
+      <workItem from="1747579977573" duration="4212000" />
+      <workItem from="1747592927385" duration="38000" />
+      <workItem from="1747596538641" duration="944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="7015ec63-564e-45c5-8d1c-5a5172ec474d" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="7015ec63-564e-45c5-8d1c-5a5172ec474d">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/caique/sites/ssslws_bot/app/v1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

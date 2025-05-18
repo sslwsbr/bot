@@ -86,9 +86,6 @@ class SslBot
             $this->cliMate->info("Site: ssl.ws");
             exit;
         }
-        if (isset($params['c']) && !isset($params['w']) && $this->checkIfConfigured($params['c'])) {
-            return;
-        }
         $requiredParams = ['c', 'w', 'p'];
         foreach ($requiredParams as $p) {
             if (!isset($params[$p]) || empty($params[$p])) {

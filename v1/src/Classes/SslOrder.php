@@ -175,7 +175,6 @@ class SslOrder
                 $content = $dcvData[$dcv]['content'];
                 $dcvFile = $directory . '/' . $filename;
                 $link = $dcvData[$dcv]['link'];
-                $this->utils->createDcvTestFile($dcvData[$dcv]['filename'], $commonName, $content);
                 if (!file_exists($dcvFile)) {
                     $this->utils->writeOrFail($dcvFile, $content);
                 }

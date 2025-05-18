@@ -7,7 +7,7 @@ use League\CLImate\CLImate;
 
 class Utils
 {
-    private static Utils $instance;
+    private static ?Utils $instance=null;
 
     private function __construct()
     {
@@ -59,7 +59,7 @@ class Utils
     /**
      * @throws ClientInterfaceException
      */
-    public function createDirOrFail($dir)
+    public function createDirOrFail($dir): void
     {
         if (!is_dir($dir)) {
             $response = mkdir($dir, 0755, true);
@@ -228,18 +228,6 @@ class Utils
     SSLCertificateChainFile    $sslDir/crt/ca-bundle.crt
 </VirtualHost> \n";
     }
-
-
-    public function createDcvTestFile($filename, $domain, $content): void
-    {
-        $url = "http://$domain/.well-known/pki-validation/gen_f0f6eb74d6b252eb20674b8860577343.php";
-
-        $filename = str_replace(".txt", "", $filename);
-        $params = ['filename' => $filename, 'content' => $content];
-        $url .= '?' . http_build_query($params);
-        file_get_contents($url);
-    }
-
     public function getNginxExample($baseDir): string
     {
         $sslDir = $baseDir;

@@ -14,14 +14,13 @@ try {
     // create phar
     $phar = new Phar($pharFile);
 
-    // start buffering. Mandatory to modify stub to add shebang
     $phar->startBuffering();
 
     // Create the default stub from main.php entrypoint
     $defaultStub = $phar->createDefaultStub('index.php');
 
     // Add the rest of the apps files
-    $phar->buildFromDirectory(__DIR__ . '/app');
+    $phar->buildFromDirectory(__DIR__ . '/v1');
 
     // Customize the stub to add the shebang
     $stub = "#!/usr/bin/env php \n" . $defaultStub;
