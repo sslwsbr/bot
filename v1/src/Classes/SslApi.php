@@ -18,7 +18,7 @@ class SslApi
         } else {
             $response = $curl->get($url, $data);
         }
-        $response = json_decode(json_encode($response), true);
+        $response = json_decode(json_encode($response), true, 512, JSON_THROW_ON_ERROR);
         $apiResponse = $response;
         if (is_null($apiResponse)) {
             throw ClientInterfaceException::cliException('Api Request: An unknown error has occurred .');
@@ -29,12 +29,18 @@ class SslApi
         return $apiResponse;
     }
 
+    /**
+     * @throws ClientInterfaceException
+     */
     public function getOrderInfo($code, $update)
     {
         $url = $this->baseUrl . 'order/' . $code . '/' . $update . '/info';
         return $this->getResponseData($this->callAPI($url));
     }
 
+    /**
+     * @throws ClientInterfaceException
+     */
     public function generateCsr($code)
     {
         $url = $this->baseUrl . 'order/' . $code . '/csr';
@@ -66,6 +72,7 @@ class SslApi
     public function issueOrReissue($code, $csr)
     {
         $url = $this->baseUrl . 'order/' . $code . '/issue_reissue';
+
         $postData = [
             'csr' => $csr
         ];

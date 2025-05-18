@@ -111,19 +111,17 @@ class SslBot
 
     public function run(): void
     {
-        try {
-            $this->utils->successMessage("SSL.WS - V1.1.3");
-            $this->utils->createDirOrFail(INSTALL_DIR);
-            $this->createParams();
-            $this->validateParams();
-            $this->code = $this->getOnlyParam('c');
-            $sslApi = new SslApi();
-            $orderData = $sslApi->getOrderInfo($this->code, 0);
-            $sslOrder = new SslOrder($orderData, $this->getParamsValue());
-            $sslOrder->process();
-        } catch (\Exception $ex) {
-            $this->utils->errorAndExit($ex->getMessage() . ':' . $ex->getFile() . ':' . $ex->getLine());
-        }
+
+        $this->utils->successMessage("SSL.WS - V1.1.3");
+        $this->utils->createDirOrFail(INSTALL_DIR);
+        $this->createParams();
+        $this->validateParams();
+        $this->code = $this->getOnlyParam('c');
+        $sslApi = new SslApi();
+        $orderData = $sslApi->getOrderInfo($this->code, 0);
+        $sslOrder = new SslOrder($orderData, $this->getParamsValue());
+        $sslOrder->process();
+
     }
 
 }
