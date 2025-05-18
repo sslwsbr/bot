@@ -122,7 +122,7 @@ class SslBot
             $sslOrder = new SslOrder($orderData, $this->getParamsValue());
             $sslOrder->process();
         } catch (\Exception $ex) {
-            $this->utils->errorAndExit($ex->getMessage());
+            $this->utils->errorAndExit($ex->getMessage() . ':' . $ex->getFile() . ':' . $ex->getLine());
         }
     }
 
