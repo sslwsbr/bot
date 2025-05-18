@@ -6,7 +6,7 @@ Biblioteca em PHP para a emissão e renovação de certificados ssl da plataform
 
 Realize a instalação utilizando os comandos abaixo:
 ```
-sudo wget https://github.com/sslwsbr/bot/raw/main/sslws_bot.phar
+sudo wget -O sslws_bot.phar  https://github.com/sslwsbr/bot/raw/main/sslws_bot.phar
 sudo mv sslws_bot.phar /usr/local/bin/sslws_bot
 chmod +x /usr/local/bin/sslws_bot
 ```

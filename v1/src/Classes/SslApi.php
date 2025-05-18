@@ -2,9 +2,8 @@
 
 namespace App\Classes;
 
-use App\Exceptions\SystemException;
-use Curl\Curl;
 use App\Exceptions\ClientInterfaceException;
+use Curl\Curl;
 
 class SslApi
 {
@@ -14,15 +13,11 @@ class SslApi
     private function callAPI($url, $method = 'GET', $data = [])
     {
         $curl = new Curl();
-        if ($method == 'POST') {
+        if ($method === 'POST') {
             $response = $curl->post($url, $data);
         } else {
             $response = $curl->get($url, $data);
         }
-
-        /* if ($curl->error) {
-             throw SystemException::apiException("Failed to connect.xxx " . $curl->curlErrorMessage);
-         }*/
         $response = json_decode(json_encode($response), true);
         $apiResponse = $response;
         if (is_null($apiResponse)) {
@@ -65,6 +60,9 @@ class SslApi
         return $this->getResponseData($this->callAPI($url, 'POST', $postData));
     }
 
+    /**
+     * @throws ClientInterfaceException
+     */
     public function issueOrReissue($code, $csr)
     {
         $url = $this->baseUrl . 'order/' . $code . '/issue_reissue';
@@ -76,10 +74,7 @@ class SslApi
 
     private function getResponseData($response)
     {
-        if (isset($response['data'])) {
-            return $response['data'];
-        }
-        return null;
+        return $response['data'] ?? null;
     }
 
 

@@ -1,0 +1,7 @@
+{
+  "base_dir": "/etc/apache2",
+  "sites_path": "/etc/apache2/sites-available",
+  "reload_command": "/etc/init.d/apache2 restart",
+  "test_config": "apachectl -t",
+  "success_test_response": "Syntax OK"
+}

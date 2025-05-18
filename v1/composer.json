@@ -1,0 +1,15 @@
+{
+    "require": {
+        "league/climate": "^3.8",
+        "php-curl-class/php-curl-class": "@dev",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/constants/app.php"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

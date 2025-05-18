@@ -10,5 +10,5 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'League\\CLImate\\' => array($vendorDir . '/league/climate/src'),
     'Curl\\' => array($vendorDir . '/php-curl-class/php-curl-class/src/Curl'),
-    'App\\' => array($baseDir . '/app'),
+    'App\\' => array($baseDir . '/src'),
 );
