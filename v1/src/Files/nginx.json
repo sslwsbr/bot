@@ -1,0 +1,7 @@
+{
+  "base_dir": "/etc/nginx",
+  "sites_path": "/etc/nginx/sites-available",
+  "reload_command": "/etc/init.d/nginx reload",
+  "test_config": "nginx -t",
+  "success_test_response": "test is successful"
+}

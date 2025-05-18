@@ -178,9 +178,10 @@ class SslOrder
                 if (!file_exists($dcvFile)) {
                     $this->utils->writeOrFail($dcvFile, $content);
                 }
+                sleep(5);
                 $httpCode = (int)$this->utils->getHttpCode($link);
                 if ($httpCode >= 400) {
-                    throw new ClientInterfaceException("The validation file has been created but is not publicly accessible. Check that the public folder is correct and that the domain is online and pointing to this server.");
+                    throw new ClientInterfaceException("The validation file has been created but is not publicly accessible. Check that the public folder is correct and that the domain is online and pointing to this server.(" . $httpCode . ')');
                 }
             }
         }

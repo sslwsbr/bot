@@ -157,11 +157,10 @@ class Utils
         }
         try {
             return json_decode($json, true, 512, JSON_THROW_ON_ERROR);
-
-        } catch (\Exception $e) {
-            var_dump($json);
-            exit();
+        } catch (\JsonException $e) {
+            $this->errorAndExit($json);
         }
+        return [];
     }
 
     /**
@@ -181,12 +180,17 @@ class Utils
     {
         $webservers = WEBSERVERS;
         foreach ($webservers as $webserver) {
-            $json = file_get_contents('https://ssl.ws/assets/bot/' . $webserver . '.json');
+            $json = file_get_contents($this->getFilesDir() . '/' . $webserver . '.json');
             $file = INSTALL_DIR . '/' . $webserver . '.json';
             if (!file_exists($file)) {
                 $this->writeOrFail($file, $json);
             }
         }
+    }
+
+    public function getFilesDir(): string
+    {
+        return __DIR__ . '/../Files';
     }
 
     /**
